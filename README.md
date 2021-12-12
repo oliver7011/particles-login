@@ -1,7 +1,9 @@
 # Login Page
 
 Example login page with dynamic css animations, triggered by javascript.
+
 Implements the 'particles' library - https://github.com/VincentGarreau/particles.js/
+Animated nodes are connecting to create a mesh effect.
 
 Switching between the login and sign up window occurs with a flipping window.
 

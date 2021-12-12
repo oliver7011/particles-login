@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="flip.css">
+    
+  <script src="flip.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith+One">
+</head>
+<body>
+
+<div id="particles-js"></div>
+  <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+<script src='https://threejs.org/examples/js/libs/stats.min.js'></script><script  src="./script.js"></script>
+<div class='outerContainer'>
+   
+  <div class="flip-card">
+      <div class="buttonGroup">
+          <button id="button1" onclick="swap()">Login</button>       
+          <button id="button2" onclick="swap()">Sign Up</button>
+      </div>        
+      <div class="flip-card-inner" id="flip-card-inner">
+      
+        <div class="flip-card-front">
+
+          <form class="form" id = "loginForm">
+              <div class="form-group">
+                  <input type="text" class="form-control" name="uname" placeholder="Username" required="required">
+              </div>
+              <div class="form-group">
+                  <input type="password" class="form-control" name="pword" placeholder="Password" required="required">
+              </div>
+              <input type="submit" value="Login" class="submitB btn-primary btn-lg btn-block">   
+              </form>
+        </div>
+        <div class="flip-card-back">
+          <div class="buttonGroup">
+              </div>
+          <form class="form" id = "signupForm">
+              <div class="form-group">
+                  <input type="text" class="form-control" name="uname" placeholder="Username" required="required">
+              </div>
+              <div class="form-group">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+              </div>
+              <div class="form-group">
+                  <input type="password" class="form-control" name="pword" placeholder="Password" required="required">
+              </div>
+              <input type="submit" value="Signup" class="submitB btn-primary btn-lg btn-block">     
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

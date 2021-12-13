@@ -156,7 +156,6 @@ canvas {
   width: 50%;
   border-top-left-radius: 15px;
   cursor: pointer;
-  vertical-align: top;
   
 
   
@@ -172,7 +171,6 @@ canvas {
   width: 50%;
   border-top-right-radius: 15px;
   cursor: pointer;
-  vertical-align: top;
 }
 
 

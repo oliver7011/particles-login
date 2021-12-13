@@ -138,7 +138,8 @@ canvas {
   height: 500px;
   overflow: auto;
   margin: auto;
-  position: absolute;
+  display: grid;
+  justify-content: center;
   top: 0; left: 0; bottom: 0; right: 0;
   background-color: none !important;
   border-radius: 15px;

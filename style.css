@@ -121,7 +121,7 @@ canvas {
   justify-content: center;
   align-content: center;
 
-  gap: 4px;
+  gap: 10px;
   grid-auto-flow: column;
 }
 

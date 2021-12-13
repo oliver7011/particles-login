@@ -117,6 +117,12 @@ canvas {
   border-bottom-left-radius: 15px;  
   border-bottom-right-radius: 15px; 
   margin-top: 0%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 4px;
+  grid-auto-flow: column;
 }
 
 /* Style the back side */
@@ -131,6 +137,12 @@ canvas {
   transform: rotateY(180deg);
   margin-top: 0%;
   padding-top: 0px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 4px;
+  grid-auto-flow: column;
 }
 
 .outerContainer {
@@ -190,12 +202,6 @@ canvas {
   border-top-right-radius: 0px;
   border-bottom-left-radius: 15px;  
   border-bottom-right-radius: 15px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-
-  gap: 4px;
-  grid-auto-flow: column;
 }
 .form-group {
   padding-left: 10px;

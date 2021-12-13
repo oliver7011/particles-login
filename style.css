@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font:normal 75% Arial, Helvetica, sans-serif;
-  background-color: #10163A;
+  background-color: #10163A !important;
 }
 
 canvas {
